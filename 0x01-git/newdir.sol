@@ -30,3 +30,32 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (4/4), 412 bytes | 412.00 KiB/s, done.                                                                  
 Total 4 (delta 0), reused 0 (delta 0)                                                                                         
 To https://github.com/Fancy30/alx-pre_course.git 
+
+
+root@e1028b6eff16:/alx-pre_course# git switch -c update_script                                                                  
+Switched to a new branch 'update_script'                                                                                        
+root@e1028b6eff16:/alx-pre_course# git branch -a                                                                                
+  list                                                                                                                          
+  main                                                                                                                          
+* update_script                                                                                                                 
+  remotes/origin/main                                                                                                           
+root@e1028b6eff16:/alx-pre_course# git push                                                                                     
+fatal: The current branch update_script has no upstream branch.                                                                 
+To push the current branch and set the remote as upstream, use                                                                  
+                                                                                                                                
+    git push --set-upstream origin update_script                                                                                
+                                                                                                                                
+root@e1028b6eff16:/alx-pre_course# git push --set-upstream origin update_script                                                 
+Username for 'https://github.com': Fancy30                                                                                      
+Password for 'https://Fancy30@github.com':                                                                                      
+Enumerating objects: 11, done.                                                                                                  
+Counting objects: 100% (11/11), done.                                                                                           
+Delta compression using up to 2 threads                                                                                         
+Compressing objects: 100% (4/4), done.                                                                                          
+Writing objects: 100% (6/6), 524 bytes | 524.00 KiB/s, done.                                                                    
+Total 6 (delta 1), reused 0 (delta 0)                                                                                           
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.                                                            
+remote:                                                                                                                         
+remote: Create a pull request for 'update_script' on GitHub by visiting:                                                        
+remote:      https://github.com/Fancy30/alx-pre_course/pull/new/update_script                                                   
+remote:                                                            
