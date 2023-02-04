@@ -58,4 +58,9 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote:                                                                                                                         
 remote: Create a pull request for 'update_script' on GitHub by visiting:                                                        
 remote:      https://github.com/Fancy30/alx-pre_course/pull/new/update_script                                                   
-remote:                                                            
+remote:                          
+How do I delete specific untracked files?
+How to remove local untracked files from the current Git branch
+To remove directories, run git clean -f -d or git clean -fd.
+To remove ignored files, run git clean -f -X or git clean -fX.
+To remove ignored and non-ignored files, run git clean -f -x or git clean -fx.
